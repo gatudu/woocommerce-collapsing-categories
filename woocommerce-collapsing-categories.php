@@ -568,6 +568,9 @@ class Woocommerce_Collapsing_Categories {
 					<h4 class="inner">'.__('Do you like this plugin?', 'wa_wcc_txt').'</h4>
 					<p class="inner">'.__('Please, ', 'wa_wcc_txt').'<a href="http://wordpress.org/support/view/plugin-reviews/woocommerce-collapsing-categories" target="_blank" title="'.__('rate it', 'wa_wcc_txt').'">'.__('rate it', 'wa_wcc_txt').'</a> '.__('on WordPress.org', 'wa_wcc_txt').'<br />          
 					</div>
+						<hr />
+					<div style="width:auto; margin:auto; text-align:center;"><a href="http://weaveapps.com/shop/wordpress-plugins/woocommerce-collapsing-categories-wordpress-plugin/" target="_blank"><img width="270" height="70" src="'.plugins_url('assets/images/wcc-pro.png',__FILE__).'"/></a></div>
+					
 				</div><form action="options.php" method="post">';
 	
 		wp_nonce_field('update-options');
